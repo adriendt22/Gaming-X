@@ -88,4 +88,4 @@ client.on("messageUpdate", async (message, oldMessage) => {
 loadCommands();
 loadEvents();
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
