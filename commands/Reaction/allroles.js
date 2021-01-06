@@ -22,10 +22,10 @@ module.exports.run = (client, message, args) => {
     "Les rôles",
     `
     ${rlEmoji} - ${rlRole.toString()}
-    ${r6sEmoji} - ${r6sRole}
-    ${valorantEmoji} - ${valorantRole}
-    ${csgoEmoji} - ${csgoRole}
-    ${amongusEmoji} - ${amongusRole}
+    ${r6sEmoji} - ${r6sRole.toString()}
+    ${valorantEmoji} - ${valorantRole.toString()}
+    ${csgoEmoji} - ${csgoRole.toString()}
+    ${amongusEmoji} - ${amongusRole.toString()}
     `
   );
 
